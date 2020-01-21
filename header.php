@@ -12,12 +12,12 @@ session_start();
 <head>
 		<title>Einstein Rising</title>
 
-		
+
 		<meta charset="utf-8">
 		<meta name="keywords" content="">
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-		
+
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/owl.carousel.css">
@@ -52,6 +52,9 @@ session_start();
 								</li>
 							<?php endif; ?>
 
+							<li>
+								<a href="http://www.einsteinrising.org/blog/news/">Training</a>
+							</li>
 							<!-- <li>
 								<a href="single.php">Bussines</a>
 							</li> -->

@@ -40,6 +40,9 @@
 							<li>
 								<a href="user.php">Register</a>
 							</li>
+							<li>
+								<a href="http://www.einsteinrising.org/blog/news/">Training</a>
+							</li>
 
 						</ul>
 					</nav>
