@@ -21,7 +21,7 @@
 		<link rel="stylesheet" href="tuner/css/colorpicker.css">
 		<!--/ styles -->
 	</head>
-
+<?php include_once "actions/style.php"; ?>
 	<body>
 		<div class="page">
 
@@ -29,7 +29,7 @@
 			<header id="page-header-bottom" class="page-header-bottom">
 				<div class="grid-row">
 					<!-- logo -->
-					<a href="index.php" class="logo">
+					<a href="potifolio.php" class="logo">
 						<img src="img/er-logo.png" alt="">
 					</a>
 					<nav class="main-nav">
@@ -38,10 +38,10 @@
 								<a href="index.php" class="">Login</a>
 							</li>
 							<li>
-								<a href="user.php">Register</a>
+								<a href="http://training.einsteinrising.org/" target="_blank">Training</a>
 							</li>
 							<li>
-								<a href="http://www.einsteinrising.org/blog/news/">Training</a>
+								<a href="user.php">Register</a>
 							</li>
 
 						</ul>
