@@ -9,8 +9,8 @@
    function __construct()
    {
      define('DB_SERVER', 'localhost');
-     define('DB_USERNAME', 'dev');
-     define('DB_PASSWORD', 'password');
+     define('DB_USERNAME', 'root');
+     define('DB_PASSWORD', '');
      define('DB_NAME', 'raising');
 
      //creating a database connection here.
@@ -28,7 +28,7 @@
       if($query['id']){
         // start the session
         session_start();
-
+        
         $_SESSION["loggedin"] = true;
         $_SESSION['id'] = $query['id'];
         $_SESSION['current_user'] = $query['full_name'];

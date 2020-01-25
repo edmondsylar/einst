@@ -17,13 +17,13 @@
               <ul>
                 <li><a href="data:image/jpg;charset=utf8;base64,<?php echo $img ?>" class="fa fa-eye fancybox"></a></li>
                 <br>
-                <p>
+                <p class="module">
                   <?php echo $gala['description']; ?>
                 </p>
               </ul>
             </div>
             </div>
-            <p>
+            <p class="module">
             <?php echo $gala['description']; ?>
             </p>
           </div>
@@ -34,7 +34,7 @@
 
     <?php endif; ?>
     </div>
-    
+
         <?php if($_SESSION['role'] == 'admin'): ?>
           <div class="grid-row">
                     <br><br>

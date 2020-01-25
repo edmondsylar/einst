@@ -27,7 +27,7 @@ session_start();
 		<link rel="stylesheet" href="tuner/css/styles.css">
 		<link rel="stylesheet" href="tuner/css/colorpicker.css">
 	</head>
-
+<?php include_once "actions/style.php"; ?>
 	<body>
 		<div class="page">
 
@@ -35,7 +35,7 @@ session_start();
 			<header id="page-header-bottom" class="page-header-bottom">
 				<div class="grid-row">
 					<!-- logo -->
-					<a href="index.php" class="logo">
+					<a href="potifolio.php" class="logo">
 						<img src="img/er-logo.png" alt="">
 					</a>
 					<!--/ logo -->
@@ -52,16 +52,15 @@ session_start();
 								</li>
 							<?php endif; ?>
 
-							<li>
-								<a href="http://www.einsteinrising.org/blog/news/">Training</a>
-							</li>
 							<!-- <li>
 								<a href="single.php">Bussines</a>
 							</li> -->
 							<!-- <li>
 								<a href="http://localhost/kawa/login/index.php">Training</a>
 							</li> -->
-
+							<li>
+								<a href="http://training.einsteinrising.org/" target="_blank">Training</a>
+							</li>
 							<?php if ($_SESSION["loggedin"]): ?>
 								<li>
 									<a href="backend/logout.php">logout</a>

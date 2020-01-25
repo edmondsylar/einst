@@ -10,11 +10,11 @@
 										<div class="item">
 											<h1><?php echo $info['name'] ?></h1>
 											<div class="pic"><div>
-												<img src="pic/portfolio/huge-1.jpg" alt="">
+												<img src="data:image/jpg;charset=utf8;base64,<?php echo $img ?>" alt="person's profile photo">
 											</div></div>
 											<div class="share clearfix">
 												<p>
-													Complete description goes here.
+													<?php echo $info['description'] ?>
 												</p>
 											</div>
 										</div>
@@ -37,11 +37,8 @@
 														<li><i class="fa fa-angle-right"></i>Marketing - <?php echo $key['marketing'];  ?>%</li>
 														<li><i class="fa fa-angle-right"></i>Business Development - <?php echo $key['businessDev'];  ?>%</li>
 
-														<li><i class="fa fa-angle-right"></i>WebSite: <a href="#">www."the 8".com</a></li>
+														<li><i class="fa fa-angle-right"></i>Trailing: <a href="http://training.einsteinrising.org/">einsteinrising</a></li>
 													</ul>
-													<p>
-														A simple description of the ent here
-													</p>
 												</div>
 											<?php endforeach; ?>
 										<?php endif; ?>

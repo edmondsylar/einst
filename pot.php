@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $all = $db->all_ents();
 
@@ -21,8 +21,8 @@ $all = $db->all_ents();
 						</ul>
 					</div>
 					</div>
-					<h3><?php echo $ent['name']; ?></h3>
-					<p class="desc"><?php echo $ent['description']; ?></p>
+					<h3> <a href="single.php?view=<?php echo $ent['id'];?>"><?php echo $ent['name']; ?></a> </h3>
+					<p class="module"><?php echo $ent['description']; ?></p>
 				</div>
 			<?php endforeach; ?>
 		</div>
